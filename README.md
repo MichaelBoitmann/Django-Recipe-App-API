@@ -1,4 +1,8 @@
-### Docker
+# Django Recipe App API
+
+## 
+
+### Docker Installation and Setup
 
 ### Install flake8 package
 
@@ -11,3 +15,22 @@ $ docker-compose run --rm app sh -c "flake8"
 ```bash
 $ docker-compose run --rm app sh -c "python manage.py test"
 ```
+
+### run flake8
+
+```bash
+$ docker-compose run --rm app sh -c "flake8"
+```
+
+### Django run start project app (take note of '.' [dot] this is very important not to mess up)
+
+```bash
+$ docker-compose run --rm app sh -c "django-admin startproject app ."
+```
+
+### To run Django services
+
+```bash
+$ docker-compose up
+```
+
