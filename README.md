@@ -22,7 +22,8 @@ $ docker-compose run --rm app sh -c "python manage.py test"
 $ docker-compose run --rm app sh -c "flake8"
 ```
 
-### Django run start project app (take note of '.' [dot] this is very important not to mess up)
+### Django run start project app 
+### Note: (take note of '.' [dot] this is very important not to mess up)
 
 ```bash
 $ docker-compose run --rm app sh -c "django-admin startproject app ."
